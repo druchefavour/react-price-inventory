@@ -18,4 +18,4 @@ A simple react application that displays table of price inventory for a statione
 13. Github
 
 ## PROCESS
-Step 1: Use npx create-react-app react-nyapp to create new app which is stored in the directory react-nyapp. 
+Step 1: Use npx create-react-app price-inv-app to create new app which is stored in the directory price-inv-app. 
