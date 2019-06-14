@@ -1,0 +1,11 @@
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#00FFFF 0,#000080 100%) !important; /* override background image gradient w/ flat color */
+    color: #fff !important;
+}
+
+.navbar-link,
+#basic-nav-dropdown {
+    color: #fff !important;
+    font-weight: bolder;
+}

@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+.container {
+    height: 100% ;
+    margin: 15px !important;
+}
+
+#fileName,
+#sheetName,
+.xlsMode {
+    display: none
+}
+.btnClass {
+    background-image: linear-gradient(to bottom,#00FFFF 0,#000080 100%) !important;
+    color: white;
+    position: relative;
+    left: 17vw;
+    width:11vw;
+}
