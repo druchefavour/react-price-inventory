@@ -26,11 +26,26 @@ Add ag-Grid NPM packages to install ag-Grid and the React wrapper in the applica
 [npm install --save ag-grid-community ag-grid-react]
 
 ### Step 3:
-Edit src/App.js with the Grid Column Definition and the Grid Row Information. Render the view.
+Create three children components (DefaultHeader: Containing the Navigation Functionalties. DateComponent: For filtering using Datepicker and AppTable: Containing the Grid Column Definition and the Grid Row Information). Render the view.
+
+### Step 4:
+Edit src/App.js. Import the three children components. Render the view.
 
 ## STYLING
 Consume React Bootstrap via the npm package which you can install with npm. We also install vanilla bootstrap.
 [npm install react-bootstrap bootstrap]
+
+## Table Functionalties
+
+1. Ability to display data from any database - Connection to database is disabled and row data is hardcoded
+2. Ability to Add new data (New Rows)
+3. Ability to edit rows
+4. Ability to update rows
+5. Ability to export data to excel.
+6. Pagination
+7. Filtering capability
+
+The routing to Group, Support and Cart is disabled in this prototype.
 
 ## RUNNING THE SCRIPT
 In the project directory, run:
